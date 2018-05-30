@@ -148,6 +148,7 @@ openshift_master_default_subdomain=$ROUTING
 openshift_override_hostname_check=true
 osm_use_cockpit=true
 os_sdn_network_plugin_name='redhat/openshift-ovs-multitenant'
+openshift_enable_unsupported_configurations=true
 
 # Enable CRI-O
 openshift_use_crio=true
@@ -247,6 +248,7 @@ openshift_master_default_subdomain=$ROUTING
 openshift_override_hostname_check=true
 osm_use_cockpit=true
 os_sdn_network_plugin_name='redhat/openshift-ovs-multitenant'
+openshift_enable_unsupported_configurations=true
 
 # Enable CRI-O
 openshift_use_crio=true
